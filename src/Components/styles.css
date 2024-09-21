@@ -1,0 +1,128 @@
+/* styles.css */
+
+.university-search {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 0px;
+  background: linear-gradient(135deg, #800020, #4b000e);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  position: relative; /* Allows z-index to work */
+  z-index: 10; /* Ensures this container is above other elements */
+  color: #f4f4f4;
+  font-family: 'Cairo', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.university-search:hover {
+  transform: translateY(-5px);
+}
+
+/* Make sure input elements are responsive */
+input[type="text"],
+input[type="number"],
+select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right: 19px; /* Add horizontal margin between filters */
+  background-color: #fff;
+  color: #000;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+  border-color: #800020;
+  box-shadow: 0 0 8px rgba(128, 0, 32, 0.5);
+}
+
+/* Adjust margin for the last element to avoid extra spacing on the right */
+.university-search input[type="text"]:last-child,
+.university-search input[type="number"]:last-child,
+.university-search select:last-child {
+  margin-right: 0;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 22px); /* Adjust width to account for horizontal margins */
+  max-width: 960px; /* Max width to maintain size on large screens */
+}
+
+select {
+  width: calc(100% - 22px); /* Adjust width to account for horizontal margins */
+  max-width: 220px; /* Max width to maintain size on large screens */
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  padding: 12px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.results li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.results h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #800020;
+}
+
+.results p {
+  margin: 5px 0;
+  font-size: 17px;
+  border-bottom: 2px solid #800020; /* Burgundy line below each paragraph */
+  color: #000000;
+}
+
+/* Additional Styling */
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Allows z-index to work */
+}
+
+.map-container {
+  margin-bottom: 20px;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%; /* Full width on small screens */
+    margin-right: 0; /* Remove right margin on small screens */
+    margin-bottom: 10px; /* Add bottom margin to stack vertically */
+  }
+
+  input[type="text"] {
+    max-width: 100%; /* Remove max-width constraint on small screens */
+  }
+
+  input[type="number"],
+  select {
+    max-width: 100%; /* Remove max-width constraint on small screens */
+  }
+}

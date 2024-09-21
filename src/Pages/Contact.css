@@ -1,0 +1,60 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4; /* Light background for the overall container */
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #800020; /* Burgundy */
+}
+
+.contact-subtitle {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #500000; /* Darker Burgundy */
+}
+
+.contact-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #800020; /* Burgundy border */
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.contact-section:hover {
+    transform: translateY(-5px); /* Move up a bit on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    color: #333; /* Dark Gray for text */
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list a {
+    color: #800020; /* Burgundy for links */
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,1096 @@
+// universitiesList.js
+
+const universities = [
+    {
+      name: 'Aalto University',
+      degree: 'Bachelor',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Digital Systems And Design',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Aalto University',
+      degree: 'Bachelor',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Computational Engineering',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Bachelor',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Business',
+      displayTitle: 'International Business Strategies',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'University of Heidelberg',
+      degree: 'Bachelor',
+      country: 'Germany',
+      tuition: 12000,
+      program: 'Science',
+      displayTitle: 'Advanced Physics',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Sorbonne University',
+      degree: 'Master',
+      country: 'France',
+      tuition: 9000,
+      program: 'Arts',
+      displayTitle: 'Contemporary Art Studies',
+      scholarship: 'More than 50% Scholarship',
+      rank: 50
+    },
+    {
+      name: 'University of Rome',
+      degree: 'Bachelor',
+      country: 'Italy',
+      tuition: 8000,
+      program: 'Business',
+      displayTitle: 'Global Leadership',
+      scholarship: 'Less than 50% Scholarship',
+      rank: 150
+    },
+    {
+      name: 'University of Barcelona',
+      degree: 'Master',
+      country: 'Spain',
+      tuition: 11000,
+      program: 'Science',
+      displayTitle: 'Quantum Computing',
+      scholarship: 'Free',
+      rank: 200
+    },
+    {
+      name: 'University of Oxford',
+      degree: 'Bachelor',
+      country: 'United Kingdom',
+      tuition: 20000,
+      program: 'Business',
+      displayTitle: 'Urban Design',
+      scholarship: 'More than 50% Scholarship',
+      rank: 10
+    },
+    {
+      name: 'University of Cambridge',
+      degree: 'Master',
+      country: 'United Kingdom',
+      tuition: 18000,
+      program: 'Science',
+      displayTitle: 'Artificial Intelligence and Robotics',
+      scholarship: 'Less than 50% Scholarship',
+      rank: 20
+    },
+    // New entries for Tampere University
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Geotechnical Engineering',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Structural Engineering',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Sustainable Transport',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Sustainable Architecture',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Teaching, Learning and Media Education',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Automation Engineering',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Environmental Engineering',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Materials Science and Engineering',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Photonics Technologies',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Science',
+      displayTitle: 'Biomaterials and Tissue Engineering',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Science',
+      displayTitle: 'Biomedical Micro- and Nanodevices',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Science',
+      displayTitle: 'Medical Physics and Biomedical Instrumentation',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Science',
+      displayTitle: 'Biomedical Informatics (Technology)',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Science',
+      displayTitle: 'Biomedical Informatics',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Science',
+      displayTitle: 'Cell Technology',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Science',
+      displayTitle: 'Molecular Biology',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Communication Systems and Networks',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Data Science',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Embedded Systems',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Human-Technology Interaction',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Information Security',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Power Electronics and Electromechanics',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Signal Processing and Machine Learning',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Smart Grids',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Software, Web & Cloud',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Statistical Data Analytics',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'System-on-Chip Design',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Engineering',
+      displayTitle: 'Wireless Communications and RF Systems',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Game Studies',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Accessibility and Diversity in Digital Services',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Sustainable Digital Life',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Business',
+      displayTitle: 'Business and Technology',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'European and Global Politics',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Governance for Sustainable Change',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Business',
+      displayTitle: 'Sustainable Business Management',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Security Governance',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Research and Innovation in Higher Education',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Peace, Mediation and Conflict Research',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Health Sciences',
+      displayTitle: 'Public and Global Health',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Comparative Social Policy and Welfare',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Global and Transnational Sociology',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Public Policy Analysis',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+      name: 'Tampere University',
+      degree: 'Master',
+      country: 'Finland',
+      tuition: 12000,
+      program: 'Social Science',
+      displayTitle: 'Gender Studies',
+      scholarship: '100% Scholarship',
+      rank: 100
+    },
+    {
+        name: 'Tampere University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Social Science',
+        displayTitle: 'Administrative Sciences',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Tampere University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Computing and Electrical Engineering',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Tampere University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Science',
+        displayTitle: 'Natural Science and Mathematics',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Tampere University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Social Science',
+        displayTitle: 'Social Sciences',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Tampere University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Social Science',
+        displayTitle: 'Socially Sustainable Societies',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Tampere University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Technology',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+    
+      {
+        name: 'Aalto University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Quantum Technology',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Design',
+        displayTitle: 'Design',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Science',
+        displayTitle: 'Data Science',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Social Science',
+        displayTitle: 'Economics',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Computational Engineering',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Business',
+        displayTitle: 'International Business',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Chemical Engineering',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Digital Systems and Design',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+    
+      // New entries for Aalto University - Master Programs
+      {
+        name: 'Aalto University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Quantum Technology',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Design',
+        displayTitle: 'Design',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Science',
+        displayTitle: 'Data Science',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Social Science',
+        displayTitle: 'Economics',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Computational Engineering',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Business',
+        displayTitle: 'International Business',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Chemical Engineering',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'Aalto University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Digital Systems and Design',
+        scholarship: '100% Scholarship',
+        rank: 100
+      },
+    {
+        name: 'LUT University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Electrical Engineering',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Mechanical Engineering',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Software and Systems Engineering',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Bachelor',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Energy Technology',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Industrial Design Engineering',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Software Product Management and Business',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Software Engineering and Digital Transformation',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Electric Transportation Systems',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Data-Centric Engineering',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Water Technology',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Chemical Engineering for Energy Transition',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Biorefineries',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Mechanical Engineering',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Circular Economy',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Science',
+        displayTitle: 'Sustainability Science and Solutions',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Nuclear Engineering',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Energy Conversion',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Sustainable Energy Systems',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Electrical Engineering',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Sustainable Biomass and Bioproducts Engineering',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Software Engineers for Green Deal',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Science',
+        displayTitle: 'Materials Science and Technology',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Science',
+        displayTitle: 'Digital Systems and Service Development',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Innovation and Logistics',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Global Management of Innovation and Technology',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Science',
+        displayTitle: 'Renewable Power-to-X Economy',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Science',
+        displayTitle: 'Applied Physics',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Social Science',
+        displayTitle: 'Management of Organisational Development',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Mechatronics',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Engineering',
+        displayTitle: 'Engineering, Entrepreneurship and Resources',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Science',
+        displayTitle: 'Food Processing Technology',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Social Science',
+        displayTitle: 'Global Communications and Clean Air, Water and Energy',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Social Science',
+        displayTitle: 'Digital Social Science',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      },
+      {
+        name: 'LUT University',
+        degree: 'Master',
+        country: 'Finland',
+        tuition: 12000,
+        program: 'Social Science',
+        displayTitle: 'Technology, Environment and Societal Change',
+        scholarship: 'More than 50% Scholarship',
+        rank: 100
+      }
+      
+      
+
+        
+
+  ];
+  
+  export default universities;
+  

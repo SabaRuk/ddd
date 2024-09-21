@@ -1,0 +1,69 @@
+/* Basic styling for the bottom navbar */
+.bottom-navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 17px; /* Increased padding */
+  display: flex;
+  justify-content: center;
+  gap: 300px; /* Increased gap */
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000; /* Ensure the navbar is on top of other content */
+  font-size: 18px; /* Increased font size */
+}
+
+.bottom-navbar.visible {
+  transform: translateY(0);
+}
+
+.bottom-navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.bottom-navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styling */
+@media (max-width: 1200px) {
+  .bottom-navbar {
+    gap: 200px; /* Adjusted gap for smaller screens */
+    font-size: 16px; /* Decreased font size */
+  }
+}
+
+@media (max-width: 992px) {
+  .bottom-navbar {
+    gap: 100px; /* Further adjusted gap */
+    font-size: 14px; /* Further decreased font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .bottom-navbar {
+    flex-direction: column; /* Stack items vertically on small screens */
+    gap: 10px; /* Reduced gap */
+    padding: 10px; /* Reduced padding */
+  }
+
+  .bottom-navbar a {
+    display: block; /* Ensure links are block elements for vertical stacking */
+  }
+}
+
+@media (max-width: 576px) {
+  .bottom-navbar {
+    gap: 0; /* No gap for very small screens */
+    font-size: 12px; /* Decreased font size */
+  }
+
+  .bottom-navbar a {
+    margin: 5px 0; /* Add margin for spacing between links */
+  }
+}

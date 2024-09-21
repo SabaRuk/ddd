@@ -1,0 +1,66 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #800020; /* Burgundy */
+}
+
+.about-subtitle {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #500000; /* Darker Burgundy */
+}
+
+.about-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #800020; /* Burgundy */
+    border-radius: 8px;
+    background-color: #f4f4f4; /* Light Gray */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.about-section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced Shadow on Hover */
+    transform: translateY(-5px); /* Move up a bit on hover */
+}
+
+.about-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333; /* Dark Gray for text */
+}
+
+.about-list li {
+    margin-bottom: 10px;
+}
+
+.about-contact {
+    list-style-type: none;
+    padding: 0;
+    color: #333; /* Dark Gray for text */
+}
+
+.about-contact li {
+    margin-bottom: 5px;
+}
+
+.about-contact a {
+    color: #800020; /* Burgundy for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-contact a:hover {
+    text-decoration: underline;
+}
