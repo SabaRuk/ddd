@@ -126,3 +126,24 @@ select {
     max-width: 100%; /* Remove max-width constraint on small screens */
   }
 }
+
+
+.load-more-btn {
+  padding: 15px 30px; /* Increase button size */
+  background-color: white; /* White background */
+  color: black; /* Black text */
+  border: 2px solid black; /* Add a black border */
+  border-radius: 25px; /* More rounded corners */
+  cursor: pointer; /* Pointer/hand icon on hover */
+  font-size: 18px; /* Slightly bigger font */
+  display: block; /* Ensures the button can be centered */
+  margin: 15px auto; /* Center horizontally, with some space above and below */
+  text-align: center; /* Center the text */
+  width: 200px; /* Control button width */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.load-more-btn:hover {
+  background-color: black; /* Black background on hover */
+  color: white; /* White text on hover */
+}

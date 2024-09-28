@@ -1253,5 +1253,16 @@ const universities = [
 
   ];
   
-  export default universities;
+  // Function to shuffle the universities array
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+};
+
+// Shuffle the universities array
+shuffleArray(universities);
+
+export default universities;
   

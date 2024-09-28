@@ -13,6 +13,7 @@ const UniversitySearch = () => {
   const [scholarshipFilter, setScholarshipFilter] = useState('');
 
   const [counts, setCounts] = useState({});
+  const [visibleCount, setVisibleCount] = useState(8); // Initial number of universities to display
 
   const applyFilters = () => {
     return universities.filter(university => {
@@ -148,7 +149,12 @@ const UniversitySearch = () => {
     }
   };
 
+  const loadMoreUniversities = () => {
+    setVisibleCount((prevCount) => prevCount + 8); // Increase the number of universities displayed
+  };
+
   const filteredUniversities = applyFilters();
+  const visibleUniversities = filteredUniversities.slice(0, visibleCount);
 
   return (
     <div className="university-search">
@@ -186,11 +192,11 @@ const UniversitySearch = () => {
       <input type="number" id="max_tuition" placeholder="Max Tuition" value={maxTuitionFilter} onChange={handleNumericInputChange} />
 
       <div className="results">
-        {filteredUniversities.length === 0 ? (
+        {visibleUniversities.length === 0 ? (
           <p>No results found.</p>
         ) : (
           <ul>
-            {filteredUniversities.map((university, index) => (
+            {visibleUniversities.map((university, index) => (
               <li key={index}>
                 <h3>{university.name}</h3>
                 <p>Program: {university.displayTitle}</p>
@@ -202,6 +208,10 @@ const UniversitySearch = () => {
               </li>
             ))}
           </ul>
+        )}
+        {visibleCount < filteredUniversities.length && (
+          <button className="load-more-btn" onClick={loadMoreUniversities}>Load More</button>
+
         )}
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './BottomNavbar.css'; // Import CSS file
 
 const BottomNavbar = () => {
@@ -27,9 +28,9 @@ const BottomNavbar = () => {
 
     return (
         <div className={`bottom-navbar ${isVisible ? 'visible' : ''}`}>
-            <a href="/Home">Home</a>
-            <a href="/About">About</a>
-            <a href="/Contact">Contact</a>
+            <Link to="/Home">Home</Link>
+            <Link to="/About">About</Link>
+            <Link to="/Contact">Contact</Link>
         </div>
     );
 };

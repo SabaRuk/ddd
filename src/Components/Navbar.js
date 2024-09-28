@@ -9,14 +9,19 @@ function Navbar() {
         navRef.current.classList.toggle("responsive_nav");
     };
 
+    // New function to handle link clicks
+    const handleLinkClick = () => {
+        showNavbar(); // Close the navbar
+    };
+
     return (
         <header>
             <h3>Saba<sup>2</sup></h3>
             <nav ref={navRef}>
                 {/* Use Link instead of anchor tags */}
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/" onClick={handleLinkClick}>Home</Link>
+                <Link to="/about" onClick={handleLinkClick}>About</Link>
+                <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />
                 </button>
