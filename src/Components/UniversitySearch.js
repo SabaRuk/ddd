@@ -158,7 +158,13 @@ const UniversitySearch = () => {
 
   return (
     <div className="university-search">
-      <input type="text" id="search-box" placeholder="Search by university name or program title..." value={searchQuery} onChange={handleInputChange} />
+      <input 
+        type="text" 
+        id="search-box" 
+        placeholder="Search by university name or program title..." 
+        value={searchQuery} 
+        onChange={handleInputChange} 
+      />
       <select id="program" value={programFilter} onChange={handleSelectChange}>
         <option value="">Program</option>
         <option value="Science">Science</option>
@@ -187,9 +193,27 @@ const UniversitySearch = () => {
         <option value="Less than 50% Scholarship">Less than 50% Scholarship</option>
         <option value="Free">Free</option>
       </select>
-      <input type="number" id="max_rank" placeholder="Maximum Rank" value={maxRankFilter} onChange={handleNumericInputChange} />
-      <input type="number" id="min_tuition" placeholder="Min Tuition" value={minTuitionFilter} onChange={handleNumericInputChange} />
-      <input type="number" id="max_tuition" placeholder="Max Tuition" value={maxTuitionFilter} onChange={handleNumericInputChange} />
+      <input 
+        type="number" 
+        id="max_rank" 
+        placeholder="Maximum Rank" 
+        value={maxRankFilter} 
+        onChange={handleNumericInputChange} 
+      />
+      <input 
+        type="number" 
+        id="min_tuition" 
+        placeholder="Min Tuition" 
+        value={minTuitionFilter} 
+        onChange={handleNumericInputChange} 
+      />
+      <input 
+        type="number" 
+        id="max_tuition" 
+        placeholder="Max Tuition" 
+        value={maxTuitionFilter} 
+        onChange={handleNumericInputChange} 
+      />
 
       <div className="results">
         {visibleUniversities.length === 0 ? (
@@ -210,8 +234,15 @@ const UniversitySearch = () => {
           </ul>
         )}
         {visibleCount < filteredUniversities.length && (
-          <button className="load-more-btn" onClick={loadMoreUniversities}>Load More</button>
-
+          <div className="button-container">
+            <button className="load-more-btn" onClick={loadMoreUniversities}>Load More</button>
+            <button 
+              className="scroll-to-top" 
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
+              ↑
+            </button>
+          </div>
         )}
       </div>
     </div>

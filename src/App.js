@@ -6,7 +6,6 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import WorldMap from './Components/WorldMap';
 import UniversitySearch from './Components/UniversitySearch';
-import BottomNavbar from './Components/BottomNavbar';
 
 function App() {
   return (
@@ -47,7 +46,6 @@ function App() {
       </Routes>
       
       {/* Footer Navbar */}
-      <BottomNavbar />
     </Router>
   );
 }

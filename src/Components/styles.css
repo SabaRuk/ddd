@@ -2,7 +2,7 @@
 
 .university-search {
   max-width: 1000px;
-  margin: 50px auto;
+  margin: 30px auto 0;
   padding: 20px;
   border-radius: 0px;
   background: linear-gradient(135deg, #800020, #4b000e);
@@ -137,7 +137,7 @@ select {
   cursor: pointer; /* Pointer/hand icon on hover */
   font-size: 18px; /* Slightly bigger font */
   display: block; /* Ensures the button can be centered */
-  margin: 15px auto; /* Center horizontally, with some space above and below */
+  margin: 0px auto; /* Center horizontally, with some space above and below */
   text-align: center; /* Center the text */
   width: 200px; /* Control button width */
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
@@ -146,4 +146,36 @@ select {
 .load-more-btn:hover {
   background-color: black; /* Black background on hover */
   color: white; /* White text on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Align items vertically */
+  margin: 20px 0; /* Add margin for spacing */
+}
+
+.scroll-to-top {
+  background-color: black; /* Background color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 50%; /* Circular shape */
+  width: 50px; /* Button size */
+  height: 50px; /* Button size */
+  font-size: 24px; /* Icon size */
+  cursor: pointer; /* Pointer/hand icon on hover */
+  display: flex; /* Flexbox for centering icon */
+  align-items: center; /* Center icon vertically */
+  justify-content: center; /* Center icon horizontally */
+  margin-left: 15px; /* Space between Load More and Scroll to Top */
+  transition: opacity 0.3s ease; /* Smooth opacity transition */
+  opacity: 0.7; /* Initial opacity */
+}
+
+.scroll-to-top:hover {
+  opacity: 1; /* Full opacity on hover */
+}
+
+.scroll-to-top:focus {
+  outline: none; /* Remove focus outline */
 }
