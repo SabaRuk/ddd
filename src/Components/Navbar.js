@@ -1,22 +1,24 @@
 import { useRef } from "react";
-import {FaBars, FaTimes } from "react-icons/fa"
-import "../Styles/main.css"
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom"; // Import Link
+import "../Styles/main.css";
 
 function Navbar() {
     const navRef = useRef();
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
+    };
 
-    }
     return (
         <header>
             <h3>Saba<sup>2</sup></h3>
             <nav ref={navRef}>
-                <a href="/Home">Home</a>
-                <a href="/About">About</a>
-                <a href="/Contact">Contact</a>
+                {/* Use Link instead of anchor tags */}
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                    <FaTimes/>
+                    <FaTimes />
                 </button>
             </nav>
             <button className="nav-btn" onClick={showNavbar}>
@@ -25,4 +27,5 @@ function Navbar() {
         </header>
     );
 }
+
 export default Navbar;
