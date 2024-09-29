@@ -10,7 +10,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Digital Systems And Design',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -20,7 +20,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Computational Engineering',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -30,7 +30,7 @@ const universities = [
       program: 'Arts',
       displayTitle: 'Design',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -40,7 +40,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Data Science',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -50,7 +50,7 @@ const universities = [
       program: 'Social Science',
       displayTitle: 'Economics',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -60,7 +60,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Computational Engineering',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -70,7 +70,7 @@ const universities = [
       program: 'Business',
       displayTitle: 'International Business',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -80,7 +80,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Chemical Engineering',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -90,7 +90,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Digital Systems and Design',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
 
   //Aalto Master
@@ -103,7 +103,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Computer Science',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -113,7 +113,7 @@ const universities = [
       program: 'Science',
       displayTitle: 'Chemistry and Materials Science',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -123,7 +123,7 @@ const universities = [
       program: 'Science',
       displayTitle: 'Chemistry and Materials Science',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -133,7 +133,7 @@ const universities = [
       program: 'Arts',
       displayTitle: 'Film Directing - Film and Television',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
 
     
@@ -145,7 +145,7 @@ const universities = [
       program: 'Science',
       displayTitle: 'Mathematics and Operations Research',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -155,7 +155,7 @@ const universities = [
       program: 'Social Science',
       displayTitle: 'Business Analytics',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -165,7 +165,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Automation and Electrical Engineering',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -175,7 +175,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Biological and Chemical Engineering for a Sustainable Bioeconomy',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -185,7 +185,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Mechanical Engineering',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -195,7 +195,7 @@ const universities = [
       program: 'Arts',
       displayTitle: 'Interior Architecture',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -205,7 +205,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Machine Learning, Data Science and Artificial Intelligence',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -215,7 +215,7 @@ const universities = [
       program: 'Science',
       displayTitle: 'Mathematics and Operations Research',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     
     {
@@ -226,7 +226,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Quantum Technology',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -236,7 +236,7 @@ const universities = [
       program: 'Arts',
       displayTitle: 'Design',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -246,7 +246,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Data Science',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -256,7 +256,7 @@ const universities = [
       program: 'Social Science',
       displayTitle: 'Economics',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -266,7 +266,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Computational Engineering',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -276,7 +276,7 @@ const universities = [
       program: 'Business',
       displayTitle: 'International Business',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -286,7 +286,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Chemical Engineering',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
     {
       name: 'Aalto University',
@@ -296,7 +296,7 @@ const universities = [
       program: 'Engineering',
       displayTitle: 'Digital Systems and Design',
       scholarship: '100% Scholarship',
-      rank: 100
+      rank: 113
     },
 
     //Tampere University Master
@@ -812,7 +812,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Software and Systems Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -822,7 +822,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Electrical Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -832,7 +832,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Mechanical Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -842,7 +842,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Energy Technology',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -852,7 +852,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Technology and Engineering Science',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -862,7 +862,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Industrial Engineering and Management',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -872,7 +872,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Computational Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -882,7 +882,7 @@ const universities = [
         program: 'Social Science',
         displayTitle: 'Sustainable International Business',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
 
       //LUT Master
@@ -894,7 +894,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Industrial Design Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -904,7 +904,7 @@ const universities = [
         program: 'Social Science',
         displayTitle: 'Software Product Management and Business',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -914,7 +914,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Software Engineering and Digital Transformation',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -924,7 +924,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Electric Transportation Systems',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -934,7 +934,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Data-Centric Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -944,7 +944,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Water Technology',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -954,7 +954,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Chemical Engineering for Energy Transition',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -964,7 +964,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Biorefineries',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -974,7 +974,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Mechanical Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -984,7 +984,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Circular Economy',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -994,7 +994,7 @@ const universities = [
         program: 'Science',
         displayTitle: 'Sustainability Science and Solutions',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1004,7 +1004,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Nuclear Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1014,7 +1014,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Energy Conversion',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1024,7 +1024,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Sustainable Energy Systems',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1034,7 +1034,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Electrical Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1044,7 +1044,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Sustainable Biomass and Bioproducts Engineering',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1054,7 +1054,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Software Engineers for Green Deal',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1064,7 +1064,7 @@ const universities = [
         program: 'Science',
         displayTitle: 'Materials Science and Technology',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1074,7 +1074,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Digital Systems and Service Development',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1084,7 +1084,7 @@ const universities = [
         program: 'Social Science',
         displayTitle: 'Innovation and Logistics',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1094,7 +1094,7 @@ const universities = [
         program: 'Social Science',
         displayTitle: 'Global Management of Innovation and Technology',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1104,7 +1104,7 @@ const universities = [
         program: 'Social Science',
         displayTitle: 'Renewable Power-to-X Economy',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1114,7 +1114,7 @@ const universities = [
         program: 'Science',
         displayTitle: 'Applied Physics',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1124,7 +1124,7 @@ const universities = [
         program: 'Social Science',
         displayTitle: 'Management of Organisational Development',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1134,7 +1134,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Mechatronics',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1144,7 +1144,7 @@ const universities = [
         program: 'Engineering',
         displayTitle: 'Engineering, Entrepreneurship and Resources',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1154,7 +1154,7 @@ const universities = [
         program: 'Science',
         displayTitle: 'Food Processing Technology',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1164,7 +1164,7 @@ const universities = [
         program: 'Social Science',
         displayTitle: 'Global Communications and Clean Air, Water and Energy',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1174,7 +1174,7 @@ const universities = [
         program: 'Social Science',
         displayTitle: 'Digital Social Science',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
+        rank: 336
       },
       {
         name: 'LUT University',
@@ -1184,67 +1184,7 @@ const universities = [
         program: 'Social Science',
         displayTitle: 'Technology, Environment and Societal Change',
         scholarship: 'More than 50% Scholarship',
-        rank: 100
-      },
-      {
-        name: 'University of Heidelberg',
-        degree: 'Bachelor',
-        country: 'Germany',
-        tuition: 12000,
-        program: 'Science',
-        displayTitle: 'Advanced Physics',
-        scholarship: '100% Scholarship',
-        rank: 100
-      },
-      {
-        name: 'Sorbonne University',
-        degree: 'Master',
-        country: 'France',
-        tuition: 9000,
-        program: 'Arts',
-        displayTitle: 'Contemporary Art Studies',
-        scholarship: 'More than 50% Scholarship',
-        rank: 50
-      },
-      {
-        name: 'University of Rome',
-        degree: 'Bachelor',
-        country: 'Italy',
-        tuition: 8000,
-        program: 'Business',
-        displayTitle: 'Global Leadership',
-        scholarship: 'Less than 50% Scholarship',
-        rank: 150
-      },
-      {
-        name: 'University of Barcelona',
-        degree: 'Master',
-        country: 'Spain',
-        tuition: 11000,
-        program: 'Engineering',
-        displayTitle: 'Quantum Computing',
-        scholarship: 'Free',
-        rank: 200
-      },
-      {
-        name: 'University of Oxford',
-        degree: 'Bachelor',
-        country: 'United Kingdom',
-        tuition: 20000,
-        program: 'Arts',
-        displayTitle: 'Urban Design',
-        scholarship: 'More than 50% Scholarship',
-        rank: 10
-      },
-      {
-        name: 'University of Cambridge',
-        degree: 'Master',
-        country: 'United Kingdom',
-        tuition: 18000,
-        program: 'Engineering',
-        displayTitle: 'Artificial Intelligence and Robotics',
-        scholarship: 'Less than 50% Scholarship',
-        rank: 20
+        rank: 336
       }
       
       

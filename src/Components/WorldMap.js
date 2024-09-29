@@ -7,10 +7,10 @@ const WorldMap = () => {
   const mapContainerRef = useRef(null);
   const mapRef = useRef(null);
 
-  const FreeB = ['DEU', 'SVN']; // Free
-  const HundredB = ['FIN']; // 100%
-  const MFiftyB = ['AUT', 'ARM']; // >50%
-  const LFiftyB = ['SWE', 'NOR']; // <50%
+  const FreeB = ['DEU', 'CHE']; // Free
+  const HundredB = ['FIN', 'HUN', 'CZE', 'SWE', 'ITA']; // 100%
+  const MFiftyB = ['DNK', 'BEL', 'ESP', 'PRT']; // >50%
+  const LFiftyB = ['NOR', 'GBR', 'IRL']; // <50%
 
   const FreeM = ['ARM', 'RUS']; // Free
   const HundredM = ['HRV']; // 100%

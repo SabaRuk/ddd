@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import image1 from './Image1.jpg';
 import image2 from './Image2.jpg';
+import image3 from './Image3.jpg';
 
 const Home = () => {
     const images = [
         image1,
-        image2
+        image2,
+        image3
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -106,6 +108,7 @@ const Home = () => {
                     .wave-text:nth-of-type(2) {
                         animation: wave2 6s linear infinite;
                     }
+                    
                 `}
             </style>
         </div>
