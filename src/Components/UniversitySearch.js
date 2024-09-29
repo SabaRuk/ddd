@@ -238,7 +238,9 @@ const UniversitySearch = () => {
             <button className="load-more-btn" onClick={loadMoreUniversities}>Load More</button>
             <button 
               className="scroll-to-top" 
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' });
+              setVisibleCount(8);
+        }}
             >
               ↑
             </button>
